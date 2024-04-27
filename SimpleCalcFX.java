@@ -70,15 +70,11 @@ public class SimpleCalcFX extends Application{
       
       root.getChildren().addAll(val1TextField, val2TextField, addButton, subButton, multButton, divButton, outputLabel);
      
-      Scene scene = new Scene(root, 350, 150);
+      Scene scene = new Scene(root, 550, 250);
       
       stage.setScene(scene);
       stage.setTitle("GuessGameGab");
       stage.show();   
-   }
-   
-   public void calculate(Int val 1 ){
-   
    }
    
    public static void main(String [] args){
